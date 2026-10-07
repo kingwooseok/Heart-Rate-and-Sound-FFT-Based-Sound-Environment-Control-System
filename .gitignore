@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# STM32 build output and IDE workspace state
+Debug/
+Release/
+.metadata/
+*.o
+*.d
+*.elf
+*.map
+build/
+
+# Local capture data and credentials
+captures/
+.env
+.env.*
+!.env.example
+
+# OS files
+Thumbs.db
+.DS_Store
+*.lnk
